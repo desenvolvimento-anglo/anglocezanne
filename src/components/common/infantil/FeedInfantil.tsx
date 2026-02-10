@@ -9,9 +9,9 @@ const FeedInfantil = () => {
                     <h1 className="font-extrabold text-2xl mb-2">
                         EDUCAÇÃO INFANTIL ANGLO CEZANNE
                     </h1>
-                    <h3 className="mb-2 text-lg font-bold">
-                        O alinhamento preciso entre as propostas do SISTEMA ANGLO e as do COLÉGIO ANGLO CEZANNE e CEZANINHO orienta o dia a dia em que os alunos:    
-                    </h3>
+                    <p className="mb-2">
+                        O alinhamento preciso entre as propostas do <span className="font-semibold">SISTEMA ANGLO</span> e as do <span className="font-semibold">COLÉGIO ANGLO CEZANNE e CEZANINHO</span> orienta o dia a dia em que os alunos:    
+                    </p>
                     <ul className="list-disc ml-10">
                         <li className="mb-2">
                             Despertam a sua curiosidade
@@ -23,7 +23,7 @@ const FeedInfantil = () => {
                             Desenvolvem o senso de organização e de sistematização dos estudos.
                         </li>
                     </ul>
-                    <p className="mb-2">
+                    <p className="mb-2 font-semibold">
                         ESSES SÃO REQUISITOS FUNDAMENTAIS PARA UMA FORMAÇÃO SÓLIDA: FORMAÇÃO ANGLO CEZANNE!
                     </p>
                 </div>

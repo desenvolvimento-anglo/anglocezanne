@@ -48,7 +48,7 @@ const FeedMaterial = () => {
                        O material didático do Sistema Anglo de Ensino foi desenvolvido por um grande time de autores, todos com larga experiência como professores e gestores pedagógicos, o que garante que os materiais reflitam as necessidades, experiências e características dos alunos.           
                     </p>
                     <p className="mb-2">
-                      ATIVIDADES COM RECURSOS DIGITAIS também são propostas de acordo com a faixa etária, conteúdos significativos, apresentados de forma envolvente, com recursos e estratégias diversificadas. Uso de RECURSOS TECNOLÓGICOS inovadores e que auxiliam no desenvolvimento dos alunos.       
+                      <span className="font-semibold">ATIVIDADES COM RECURSOS DIGITAIS</span> também são propostas de acordo com a faixa etária, conteúdos significativos, apresentados de forma envolvente, com recursos e estratégias diversificadas. Uso de <span className="font-semibold">RECURSOS TECNOLÓGICOS</span> inovadores e que auxiliam no desenvolvimento dos alunos.       
                     </p>
                 </div>
             </div>

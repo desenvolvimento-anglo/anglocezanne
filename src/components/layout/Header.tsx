@@ -85,14 +85,14 @@ export default function Header() {
             <div className="flex place-items-center gap-x-5">
               <a
                 href="mailto:contato@anglocezanne.com.br"
-                className="font-semibold hidden sm:block text-lg"
+                className=" hidden sm:block text-sm"
               >
-                <span className="inline-block text-lg -mb-1 mx-2">
+                <span className="inline-block text-md -mb-1 mx-2">
                   <FaRegEnvelope></FaRegEnvelope>
                 </span>
                 contato@anglocezanne.com.br
               </a>
-              <a href="tel:" className="font-semibold text-lg">
+              <a href="tel:" className="text-sm">
                 <span className="inline-block -mb-1 mx-2">
                   <FaPhoneAlt></FaPhoneAlt>
                 </span>

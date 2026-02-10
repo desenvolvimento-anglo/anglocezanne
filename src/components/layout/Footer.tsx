@@ -20,7 +20,7 @@ const Footer = () => {
   const data = new Date(Date.now());
   return (
     <footer className={`bg-brand-150`}>
-      <div className="row py-20 px-5">
+      <div className="row pt-10 pb-10 px-5">
         <div className="container">
           <div className="grid grid-cols-4 gap-3">
             <div className="col-span-4 md:col-span-1">
@@ -37,46 +37,6 @@ const Footer = () => {
                 <p className="text-white leading-5 mt-1 text-justify">
                   CNPJ
                 </p>
-                {/* <div className="flex gap-x-3 mt-5 md:place-content-center">
-                  <a
-                    href="https://web.facebook.com/ToalheiroSBO/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaFacebookF />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/toalheirosantabarbara"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    href="tel:1934581030"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaPhoneAlt />
-                  </a>
-                  <a
-                    href="mailto:contato@toalheirosantabarbara.com.br"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaEnvelope />
-                  </a>
-                  <a
-                    href="https://br.linkedin.com/company/toalheiro-santa-barbara"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaLinkedinIn />
-                  </a>
-                </div> */}
               </div>
             </div>
             <div className="col-span-4 md:col-span-3 grid md:grid-cols-3 gap-5">
@@ -99,14 +59,6 @@ const Footer = () => {
                       Sustentabilidade
                     </Link>
                   </li>
-                  {/* <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/blog">
-                      <span className="inline-block -mb-[2px] mr-1">
-                        <FaAngleDoubleRight />
-                      </span>
-                      Blog
-                    </Link>
-                  </li> */}
                   <li className="hover:text-brand-50 transition duration-500">
                     <Link href="/politica-privacidade">
                       <span className="inline-block -mb-[2px] mr-1">
@@ -115,19 +67,11 @@ const Footer = () => {
                       Política de Privacidade
                     </Link>
                   </li>
-                  {/* <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/blog">
-                      <span className="inline-block -mb-[2px] mr-1">
-                        <FaAngleDoubleRight />
-                      </span>
-                      Blog
-                    </Link>
-                  </li> */}
                 </ul>
               </div>
               <div className="text-white">
-                <h2 className="font-bold mb-3 text-2xl">Contato</h2>
-                <ul className="flex gap-y-2 flex-col text-lg mb-3">
+                <h2 className="font-bold mb-3 text-xl">Contato</h2>
+                <ul className="flex gap-y-2 flex-col text-base mb-3">
                   <li className="hover:text-brand-50 transition duration-500">
                     <a
                       href="/"
@@ -153,8 +97,8 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-                <h2 className="font-bold mb-3 text-2xl">Endereço</h2>
-                <ul className="flex gap-y-2 flex-col text-lg">
+                <h2 className="font-bold mb-3 text-xl">Endereço</h2>
+                <ul className="flex gap-y-2 flex-col text-base">
                   <li className="hover:text-brand-50 transition duration-500">
                     <a
                       href="https://maps.app.goo.gl/1crYPn8VHWHgcnXP8"
@@ -170,7 +114,34 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="text-white">
-                <h2 className="font-bold mb-3 text-2xl">Redes Sociais</h2>
+                <h2 className="font-bold mb-2 text-xl">Redes Sociais</h2>
+                <div className="flex gap-x-3  mb-2">
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                  >
+                    <FaFacebookF />
+                  </a>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                  >
+                    <FaInstagram />
+                  </a>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
+                  >
+                    <FaYoutube />
+                  </a>
+                </div>
+                <h1 className="font-semibold mb-3 text-lg">@anglocezanne</h1>
                 <div className="flex gap-x-3 mt-5 mb-2">
                   <a
                     href="/"
@@ -197,34 +168,7 @@ const Footer = () => {
                     <FaYoutube />
                   </a>
                 </div>
-                <h1 className="font-semibold mb-3 text-xl">@anglocezanne</h1>
-                <div className="flex gap-x-3 mt-5 mb-2">
-                  <a
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaFacebookF />
-                  </a>
-                  <a
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaInstagram />
-                  </a>
-                  <a
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaYoutube />
-                  </a>
-                </div>
-                <h1 className="font-semibold mb-3 text-xl">@cezaninho</h1>
+                <h1 className="font-semibold mb-3 text-lg">@cezaninho</h1>
               </div>
             </div>
           </div>
